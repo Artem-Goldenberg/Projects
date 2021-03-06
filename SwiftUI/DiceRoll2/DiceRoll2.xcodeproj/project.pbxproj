@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814BDFCC25D3004B005537D6 /* DiceRoll2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFCB25D3004B005537D6 /* DiceRoll2App.swift */; };
+		814BDFCE25D3004B005537D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFCD25D3004B005537D6 /* ContentView.swift */; };
+		814BDFD025D3004C005537D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814BDFCF25D3004C005537D6 /* Assets.xcassets */; };
+		814BDFD325D3004C005537D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814BDFD225D3004C005537D6 /* Preview Assets.xcassets */; };
+		814BDFD525D3004C005537D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFD425D3004C005537D6 /* Persistence.swift */; };
+		814BDFD825D3004C005537D6 /* DiceRoll2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFD625D3004C005537D6 /* DiceRoll2.xcdatamodeld */; };
+		814BDFE125D30102005537D6 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFE025D30102005537D6 /* DiceView.swift */; };
+		814BDFE425D3010F005537D6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFE325D3010F005537D6 /* ListView.swift */; };
+		814BDFE725D3012D005537D6 /* Int-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BDFE625D3012D005537D6 /* Int-ObservableObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		814BDFC825D3004B005537D6 /* DiceRoll2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814BDFCB25D3004B005537D6 /* DiceRoll2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoll2App.swift; sourceTree = "<group>"; };
+		814BDFCD25D3004B005537D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		814BDFCF25D3004C005537D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814BDFD225D3004C005537D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		814BDFD425D3004C005537D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		814BDFD725D3004C005537D6 /* DiceRoll2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiceRoll2.xcdatamodel; sourceTree = "<group>"; };
+		814BDFD925D3004C005537D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814BDFE025D30102005537D6 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		814BDFE325D3010F005537D6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		814BDFE625D3012D005537D6 /* Int-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int-ObservableObject.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814BDFC525D3004B005537D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814BDFBF25D3004B005537D6 = {
+			isa = PBXGroup;
+			children = (
+				814BDFCA25D3004B005537D6 /* DiceRoll2 */,
+				814BDFC925D3004B005537D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814BDFC925D3004B005537D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814BDFC825D3004B005537D6 /* DiceRoll2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814BDFCA25D3004B005537D6 /* DiceRoll2 */ = {
+			isa = PBXGroup;
+			children = (
+				814BDFCB25D3004B005537D6 /* DiceRoll2App.swift */,
+				814BDFCD25D3004B005537D6 /* ContentView.swift */,
+				814BDFE625D3012D005537D6 /* Int-ObservableObject.swift */,
+				814BDFE025D30102005537D6 /* DiceView.swift */,
+				814BDFE325D3010F005537D6 /* ListView.swift */,
+				814BDFCF25D3004C005537D6 /* Assets.xcassets */,
+				814BDFD425D3004C005537D6 /* Persistence.swift */,
+				814BDFD925D3004C005537D6 /* Info.plist */,
+				814BDFD625D3004C005537D6 /* DiceRoll2.xcdatamodeld */,
+				814BDFD125D3004C005537D6 /* Preview Content */,
+			);
+			path = DiceRoll2;
+			sourceTree = "<group>";
+		};
+		814BDFD125D3004C005537D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				814BDFD225D3004C005537D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814BDFC725D3004B005537D6 /* DiceRoll2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814BDFDC25D3004C005537D6 /* Build configuration list for PBXNativeTarget "DiceRoll2" */;
+			buildPhases = (
+				814BDFC425D3004B005537D6 /* Sources */,
+				814BDFC525D3004B005537D6 /* Frameworks */,
+				814BDFC625D3004B005537D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceRoll2;
+			productName = DiceRoll2;
+			productReference = 814BDFC825D3004B005537D6 /* DiceRoll2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814BDFC025D3004B005537D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					814BDFC725D3004B005537D6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 814BDFC325D3004B005537D6 /* Build configuration list for PBXProject "DiceRoll2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 814BDFBF25D3004B005537D6;
+			productRefGroup = 814BDFC925D3004B005537D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814BDFC725D3004B005537D6 /* DiceRoll2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814BDFC625D3004B005537D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BDFD325D3004C005537D6 /* Preview Assets.xcassets in Resources */,
+				814BDFD025D3004C005537D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814BDFC425D3004B005537D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BDFD525D3004C005537D6 /* Persistence.swift in Sources */,
+				814BDFE125D30102005537D6 /* DiceView.swift in Sources */,
+				814BDFE425D3010F005537D6 /* ListView.swift in Sources */,
+				814BDFCE25D3004B005537D6 /* ContentView.swift in Sources */,
+				814BDFD825D3004C005537D6 /* DiceRoll2.xcdatamodeld in Sources */,
+				814BDFCC25D3004B005537D6 /* DiceRoll2App.swift in Sources */,
+				814BDFE725D3012D005537D6 /* Int-ObservableObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		814BDFDA25D3004C005537D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814BDFDB25D3004C005537D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814BDFDD25D3004C005537D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceRoll2/Preview Content\"";
+				DEVELOPMENT_TEAM = TRB2DCAGL6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DiceRoll2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArtemGoldenbergCorp.DiceRoll2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		814BDFDE25D3004C005537D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceRoll2/Preview Content\"";
+				DEVELOPMENT_TEAM = TRB2DCAGL6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DiceRoll2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArtemGoldenbergCorp.DiceRoll2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814BDFC325D3004B005537D6 /* Build configuration list for PBXProject "DiceRoll2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BDFDA25D3004C005537D6 /* Debug */,
+				814BDFDB25D3004C005537D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814BDFDC25D3004C005537D6 /* Build configuration list for PBXNativeTarget "DiceRoll2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BDFDD25D3004C005537D6 /* Debug */,
+				814BDFDE25D3004C005537D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		814BDFD625D3004C005537D6 /* DiceRoll2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				814BDFD725D3004C005537D6 /* DiceRoll2.xcdatamodel */,
+			);
+			currentVersion = 814BDFD725D3004C005537D6 /* DiceRoll2.xcdatamodel */;
+			path = DiceRoll2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 814BDFC025D3004B005537D6 /* Project object */;
+}
